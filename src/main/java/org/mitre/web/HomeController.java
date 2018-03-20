@@ -63,7 +63,7 @@ public class HomeController {
 
 		model.addAttribute("admins", admins);
 
-		return "home";
+		return "class";
 	}
 
 	@RequestMapping("/user")
@@ -88,7 +88,7 @@ public class HomeController {
 
 	@RequestMapping("/login")
 	public String login(Principal p) {
-		return "login";
+		return "class";
 	}
 
 }
